@@ -1,0 +1,78 @@
+.navbar-custom {
+  padding: 30px; /* Ajusta el espacio interno de la navbar */
+  font-size: large; /* Ajusta el tamaño de fuente de los elementos de la navbar */
+}
+
+a {
+  font-size: xx-large;
+}
+
+.footer-ema {
+  font-size: xx-large;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.tech-image {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 10px;
+  justify-items: center;
+  
+}
+
+.tech-image img {
+  width: 100px;
+    
+}
+
+
+
+.container-tech h2 {
+  display: flex;
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cards {
+  display: grid;
+    gap: 6rem;
+    padding: 10rem;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 3rem;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  width: 25rem;
+  border-radius: 2px;
+}
+
+.container-cards h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-cards {
+margin-top: 8rem;
+}
+
+.titles-cards {
+  text-align: center;
+  padding: 1rem;
+}
