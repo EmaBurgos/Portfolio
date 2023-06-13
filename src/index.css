@@ -1,10 +1,40 @@
 a {
   font-size: xx-large;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-track {
+  width: 12px;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 159, 159);
+  width: 12px;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(0, 217, 217);
+  width: 12px;
+  border-radius: 5px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+}
 
+svg:hover {
+  color: aqua;
 
 }
 

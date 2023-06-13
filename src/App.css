@@ -1,19 +1,57 @@
 .navbar-custom {
-  padding: 30px; /* Ajusta el espacio interno de la navbar */
-  font-size: large; /* Ajusta el tamaño de fuente de los elementos de la navbar */
+  top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 30px;
+    font-size: large;
+    z-index: 10; /* Ajusta el tamaño de fuente de los elementos de la navbar */
+    border-bottom: 1px solid #00fdf6;
+    background: rgb(0 0 0 / 74%);
+}
+
+.navbar-toggler {
+  background-color: #00fdf6;
+
+}
+
+.info svg{
+      margin-bottom: 0.5rem;
+        width: 3rem;
+        margin-left: 1rem;
+        height: 3rem;
+}
+
+.container-info {
+  padding: 10rem;
+  padding-bottom: 350px;
+
+  padding-top: 20rem;
+}
+
+.container-dad-tech {
 }
 
 a {
   font-size: xx-large;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 .footer-ema {
-  font-size: xx-large;
+  font-size: smaller;
     padding: 1rem;
     color: white;
     display: flex;
-    background: black;
+    background: #000000d4;
     justify-content: center;
+    border-top: 1px solid #00fdf6;
 }
 
 .tech-image {
@@ -21,18 +59,33 @@ a {
   grid-template-columns: repeat(7,1fr);
   gap: 10px;
   justify-items: center;
+  padding: 20px;
+  
   
 }
 
 .tech-image img {
   width: 100px;
-    
+    transition: transform 0.3s;
+}
+
+.tech-image img:hover {
+  transform: scale(1.2);
+}
+
+.container-tech {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  background: #505050ab;
+  border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
 
 
 
 .container-tech h2 {
   display: flex;
+  color: white;
 }
 
 .texto {
@@ -50,29 +103,193 @@ a {
 
 .cards {
   display: grid;
-    gap: 6rem;
-    padding: 10rem;
-    grid-template-columns: repeat(3,1fr);
-    padding-top: 3rem;
+    padding: 1rem;
+    grid-template-columns: repeat(1,1fr);
+   justify-items: center;
+   padding-bottom: 5rem;
 }
 
 .card {
-  border: 1px solid black;
+  color: white;
+  border: 1px solid #9ffffb;
+  background-color: black;
   display: flex;
-  width: 25rem;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 2px;
+  margin-bottom: 3rem;
+        transition: transform 0.5s, box-shadow 0.5s ;
+        height: 15rem;
+        width: 55rem;
+        flex-direction: row-reverse;
+}
+
+.card img {
+  width: 330px;
+  height: 220px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.card p {
+  color: rgb(255, 255, 255);
+}
+
+.card:hover {
+  box-shadow: 0 0 100px rgb(0 213 255 / 80%);
+    transform: scale(1.2);
 }
 
 .container-cards h2 {
   display: flex;
   justify-content: center;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
 }
 
 .container-cards {
-margin-top: 8rem;
+
+padding-top: 1rem;
 }
 
 .titles-cards {
   text-align: center;
   padding: 1rem;
+}
+
+.title-tech{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.collapse.navbar-collapse {
+  flex-direction: row-reverse;
+}
+
+form {
+  background-color: black;
+  padding: 50px 124px;
+  box-shadow: 0 0 100px rgb(0 213 255 / 80%);
+  border-radius: 3px;
+  text-align: center;
+  width: 38rem;
+  margin-bottom: 10rem;
+}
+
+.section-form {
+  display: flex;
+  justify-content: center;
+  
+}
+
+form label {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+
+input, textarea {
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+textarea {
+  padding-bottom: 5rem;
+}
+
+.input-post {
+  border-radius: 5px;
+}
+
+.Comida {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-top: 1rem;
+  border: 3px solid rgb(29, 46, 49);
+  background-color: aqua;
+  padding-bottom: 2px;
+  font-weight: 600;
+  font-size: inherit;
+  border-radius: 50px;
+  width: 10rem;
+}
+
+.btn:hover{
+  background-color: rgb(0, 55, 0);
+  border: 3px solid aqua;
+  color: aqua;
+}
+
+.boton-div {
+  display: flex;
+  justify-content: center;
+}
+
+.particulas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+
+}
+
+.certified-container {
+  padding-top: 1rem;
+  background-color: #505050ab;
+  border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+
+}
+
+.contact-container {
+  padding-top: 10rem;
+  
+}
+
+.contact-container h2{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 9rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: overline;
+  color: #00fdf6;
+}
+
+.contact-container svg {
+      width: 5rem;
+      height: 5rem;
+      transition: transform 0.3s;
+
+}
+
+.contact-container svg:hover {
+  color: #00fdf6;
+  transform: scale(1.2);
+
+}
+
+.span-color {
+  color: aqua;
 }
