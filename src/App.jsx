@@ -295,7 +295,7 @@ function App() {
             <h2>Proyectos</h2>
             <div className="cards">
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/TOOLMATCH.png" />
+                <img src="../public/images/TOOLMATCH.png" />
                 <div className="titles-cards">
                   <h3>ToolMatch</h3>
                   <p>
@@ -314,7 +314,7 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="https://www.pragma.com.co/hubfs/h_react.jpg" />
+                <img src="https://images.memphistours.com/large/8193af41e444e3f6af5afd7294c9f5ef.jpg" />
                 <div className="titles-cards">
                   <h3>Food Web</h3>
                   <p>
@@ -333,7 +333,7 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/descarga.jpeg" />
+                <img src="../public/images/descarga.jpeg" />
                 <div className="titles-cards">
                   <h3>Rick y Morty</h3>
                   <p>
@@ -384,11 +384,12 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/RELOJ.png" />
+                <img src="../public/images/RELOJ.png" />
                 <div className="titles-cards">
                   <h3>Reloj Virtual</h3>
                   <p>
-                    Marca el horario y día de la fecha actual, Javascript Puro
+                    Marca el horario y día de la fecha actual, Realizado
+                    Javascript puro
                   </p>
                   <a
                     className="btn"
@@ -406,7 +407,7 @@ function App() {
             <h2 className="title-tech">Aprendizaje y Certificados ✔</h2>
             <div className="cards">
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/HENRY.png" />
+                <img src="../public/images/HENRY.png" />
                 <div className="titles-cards">
                   <h3>FullStack Developer Henry</h3>
                   <p>
@@ -416,38 +417,38 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/Programacionweb.png" />
+                <img src="../public/images/Programacionweb.png" />
                 <div className="titles-cards">
                   <h3>Programación Web</h3>
-                  <p>Javascript,HTML,CSS, +40 horas</p>
+                  <p>Bases de Javascript, HTML, CSS y SQL. +40 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/algoritmos.png" />
+                <img src="../public/images/algoritmos.png" />
                 <div className="titles-cards">
                   <h3>Algoritmos de programación</h3>
                   <p>Analisis y resolucion de algoritmos, +20 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/marketing.png" />
+                <img src="../public/images/marketing.png" />
                 <div className="titles-cards">
                   <h3>Marketing Digital</h3>
                   <p>Estrategias para el marketing en la Web, +10 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/big data.png" />
+                <img src="../public/images/big data.png" />
                 <div className="titles-cards">
                   <h3>Big Data</h3>
                   <p>Organizacion y evaluacion de datos , +10 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../FOTOS CERTIFICACIONES Y PROYECTOS/navegacionsegura.png" />
+                <img src="../public/images/navegacionsegura.png" />
                 <div className="titles-cards">
                   <h3>Navegación Segura</h3>
-                  <p>Aprendizaje Virtual Gobierno, +10 horas</p>
+                  <p>Tecnicas para la navegación Web, +10 horas</p>
                 </div>
               </article>
             </div>
