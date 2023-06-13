@@ -295,7 +295,7 @@ function App() {
             <h2>Proyectos</h2>
             <div className="cards">
               <article className="card">
-                <img src="../public/images/TOOLMATCH.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/TOOLMATCH.png" />
                 <div className="titles-cards">
                   <h3>ToolMatch</h3>
                   <p>
@@ -333,7 +333,7 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/descarga.jpeg" />
+                <img src="https://my-project-emaburgos.vercel.app/images/descarga.jpeg" />
                 <div className="titles-cards">
                   <h3>Rick y Morty</h3>
                   <p>
@@ -384,7 +384,7 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/RELOJ.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/RELOJ.png" />
                 <div className="titles-cards">
                   <h3>Reloj Virtual</h3>
                   <p>
@@ -407,7 +407,7 @@ function App() {
             <h2 className="title-tech">Aprendizaje y Certificados ✔</h2>
             <div className="cards">
               <article className="card">
-                <img src="../public/images/HENRY.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/HENRY.png" />
                 <div className="titles-cards">
                   <h3>FullStack Developer Henry</h3>
                   <p>
@@ -417,35 +417,35 @@ function App() {
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/Programacionweb.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/Programacionweb.png" />
                 <div className="titles-cards">
                   <h3>Programación Web</h3>
                   <p>Bases de Javascript, HTML, CSS y SQL. +40 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/algoritmos.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/algoritmos.png" />
                 <div className="titles-cards">
                   <h3>Algoritmos de programación</h3>
                   <p>Analisis y resolucion de algoritmos, +20 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/marketing.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/marketing.png" />
                 <div className="titles-cards">
                   <h3>Marketing Digital</h3>
                   <p>Estrategias para el marketing en la Web, +10 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/big data.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/big data.png" />
                 <div className="titles-cards">
                   <h3>Big Data</h3>
                   <p>Organizacion y evaluacion de datos , +10 horas</p>
                 </div>
               </article>
               <article className="card">
-                <img src="../public/images/navegacionsegura.png" />
+                <img src="https://my-project-emaburgos.vercel.app/images/navegacionsegura.png" />
                 <div className="titles-cards">
                   <h3>Navegación Segura</h3>
                   <p>Tecnicas para la navegación Web, +10 horas</p>
