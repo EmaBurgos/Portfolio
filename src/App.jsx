@@ -541,7 +541,7 @@ function App() {
                     <input
                       type="hidden"
                       name="_next"
-                      value="https://emaburgos.vercel.app/#Contacto"
+                      value="https://emaburgos.vercel.app/"
                     />
                     <input type="hidden" name="_captcha" value="false" />
                   </div>
