@@ -21,7 +21,9 @@
     "react-particles": "^2.10.1",
     "scrollreveal": "^4.0.9",
     "sweetalert2": "^11.7.12",
-    "tsparticles": "^2.10.1"
+    "tsparticles": "^2.10.1",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

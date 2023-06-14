@@ -214,7 +214,7 @@ function App() {
             <div className="container-info">
               <div className="info">
                 <h1>
-                  <span className="span-color">Emanuel Burgos</span>,
+                  <span className="span-color">Emanuel Burgos</span>
                   Desarrollador Web Fullstack
                   <FaReact />
                 </h1>
@@ -551,7 +551,7 @@ function App() {
           </section>
         </main>
         <footer className="footer-ema">
-          ❤ Emanuel Burgos 🚀 2023 Todos los Derechos reservados©
+          Con amor ❤ Emanuel Burgos 🚀 2023 ©Todos los Derechos reservados.
         </footer>
       </div>
     </>

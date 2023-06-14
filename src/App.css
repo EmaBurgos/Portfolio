@@ -14,6 +14,13 @@
 
 }
 
+.info h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 .info svg{
       margin-bottom: 0.5rem;
         width: 3rem;
@@ -289,4 +296,76 @@ textarea {
 
 .span-color {
   color: aqua;
+}
+
+
+/* ------------------------------RESPONSIVE ------------------------------------- */
+
+@media screen and (max-width: 900px) {
+
+  .container-info {
+    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .card img {
+    width: 212px;
+    height: 149px;
+    margin-top: 5px;
+  }
+
+  .container-tech {
+    padding-bottom: 5rem;
+  }
+  
+  .title-tech {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+
+  .tech-image {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .redes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .redes a {
+    padding-bottom: 2rem ;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .section-form {
+    padding-left: 1rem;
+    padding: 1rem;
+  }
+
+  .Comida {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5px;
+  }
+
+  .footer-ema {
+    text-align: center;
+  }
 }
