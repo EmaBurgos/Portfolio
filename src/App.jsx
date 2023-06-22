@@ -232,7 +232,7 @@ function App() {
                 <p>Me gusta el deporte, los animales y los videojuegos.</p>
                 <p>
                   Actualmente estoy estudiando{" "}
-                  <span className="span-color">Diseño UX/UI.</span>
+                  <span className="span-color">C# .NET</span>
                 </p>
                 <p>
                   ¡Te doy una amable bienvenida a mi portfolio y estaría
@@ -263,6 +263,9 @@ function App() {
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
 
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" />
 
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 
@@ -287,6 +290,7 @@ function App() {
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" />
 
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
               </div>
             </div>
           </section>
@@ -376,8 +380,8 @@ function App() {
                   </p>
                   <a
                     className="btn"
-                    // href="https://tools-match-eight.vercel.app/"
-                    // target="https://tools-match-eight.vercel.app/"
+                    href="https://github.com/EmaBurgos/calculadora.js"
+                    target="https://github.com/EmaBurgos/calculadora.js"
                   >
                     Ver
                   </a>
@@ -393,8 +397,8 @@ function App() {
                   </p>
                   <a
                     className="btn"
-                    // href="https://tools-match-eight.vercel.app/"
-                    // target="https://tools-match-eight.vercel.app/"
+                    href="https://github.com/EmaBurgos/Clock.js"
+                    target="https://github.com/EmaBurgos/Clock.js"
                   >
                     Ver
                   </a>
